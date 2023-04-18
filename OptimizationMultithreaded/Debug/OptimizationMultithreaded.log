@@ -1,0 +1,7 @@
+﻿  optimize.cpp
+C:\Users\nunot\OneDrive\FC\Estágio 2020\Optimization\VS Projects\Update Optimized\OptimizationMultithreaded\OptimizationMultithreaded\optimize.cpp(129,56): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+  Source.cpp
+C:\Users\nunot\OneDrive\FC\Estágio 2020\Optimization\VS Projects\Update Optimized\OptimizationMultithreaded\OptimizationMultithreaded\Source.cpp(24,30): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+C:\Users\nunot\OneDrive\FC\Estágio 2020\Optimization\VS Projects\Update Optimized\OptimizationMultithreaded\OptimizationMultithreaded\Source.cpp(22,9): warning C4101: 'j': unreferenced local variable
+  Generating Code...
+  OptimizationMultithreaded.vcxproj -> C:\Users\nunot\OneDrive\FC\Estágio 2020\Optimization\VS Projects\Update Optimized\OptimizationMultithreaded\Debug\OptimizationMultithreaded.exe
