@@ -1,9 +1,12 @@
-# FunctionalTestStudies
+# Optimal Test Positioning for RADEM Engineering Model
  
-This is a basic C++ program designed to optimize the testing positions for RADEM engineering model, which is a a high energy particle detector designed for the JUICE mission.
+This C++ program is designed to optimize testing positions for the RADEM engineering model, a high-energy particle detector developed for the JUICE mission.
 
-The motivation behind this project comes down to the necessity to develop a test that is fast and simple to implement, meant to be performed between the environmental tests of RADEM. Ideally we’d use a particle beam for these tests, but that’s not always practical or even possible given the circumstances. This led to the development of a verification test to assure all sensors are working properly by using a cheaply available source of radiation.
+**Motivation**
+The need for a fast and simple testing method between RADEM's environmental tests led to the development of this project. While a particle beam is ideal for testing, it is not always practical or possible due to various circumstances. As a result, this project focuses on developing a verification test to ensure all sensors function correctly using an affordable radiation source.
 
-The goal is to find the optimal position (or sets of positions) where a radiation source is to be placed for the detectors present in the engineering model to be irradiated for long enough for the validation test of the model to have enough statistical significance while minimizing testing time.
+**Goal**
+The objective is to determine the optimal position(s) for placing a radiation source to irradiate the detectors in the engineering model. This ensures the validation test of the model achieves sufficient statistical significance while minimizing testing time.
 
-This particular alrogithm, when given a series of testing positions, computes and possible permutations of durations between the given set positions and finds the optimal combination of positions that minimizes testing time. This evaluation of each permuation is done ona distributed basis, using multithreading. 
+**Algorithm**
+This algorithm evaluates a series of testing positions and calculates possible permutations of durations between the given set of positions. It then identifies the optimal combination of positions that minimizes testing time. The evaluation of each permutation is performed in a distributed manner using multithreading.
